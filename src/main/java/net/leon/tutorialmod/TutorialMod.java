@@ -49,6 +49,7 @@ public class TutorialMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAINBOWGEM);
             event.accept(ModItems.RAINBOWDIAMOND);
+            event.accept(ModItems.RAINBOWDIAMOND_SWORD);
         }
     }
 

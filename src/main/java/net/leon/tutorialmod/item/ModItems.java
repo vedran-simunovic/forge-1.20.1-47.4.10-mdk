@@ -2,6 +2,7 @@ package net.leon.tutorialmod.item;
 
 import net.leon.tutorialmod.TutorialMod;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAINBOWDIAMOND = ITEMS.register("rainbowdiamond",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAINBOWDIAMOND_SWORD = ITEMS.register("rainbowdiamond_sword",
+            () -> new SwordItem(ModToolTiers.RAINBOWDIAMOND, 4, 2, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
