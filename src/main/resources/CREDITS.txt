@@ -1,0 +1,52 @@
+CREDITS – Šimunović Mod
+======================
+
+This mod was created by Vedran Šimunović.
+
+Special thanks and acknowledgements:
+
+--------------------------------------------------
+Programming & Technical Help
+--------------------------------------------------
+ChatGPT
+AI assistant by OpenAI
+Used for debugging, explanations, and implementation guidance.
+https://openai.com/
+
+Kaupenjoe
+Minecraft Forge modding tutorials and examples.
+YouTube Channel:
+https://www.youtube.com/@ModdingByKaupenjoe
+
+--------------------------------------------------
+Textures & Images
+--------------------------------------------------
+The following images and textures were used as references
+or were adapted for use in this mod.
+
+Image sources:
+- https://www.minecraft.net/
+- https://textures.minecraft.net/
+- https://novaskin.me/
+- https://www.planetminecraft.com/
+- Rainbow Gem https://minecraft.novaskin.me/post/4545163502813184/polished-prismium
+- Rainbow Diamond https://minecraft.novaskin.me/post/4045003035/rainbow
+- Rainbow Diamond Sword https://minecraft.novaskin.me/post/4024383078/rainbow-sword
+- Rainbow Gem Bow
+	- Standby https://minecraft.novaskin.me/post/5517903051/rainbow-bow
+	- Pulling 0 https://minecraft.novaskin.me/post/3371583036/rainbow-bow-pulling-1
+	- Pulling 1 https://minecraft.novaskin.me/post/3363923024/rainbow-bow-pulling-2
+	- Pulling 2 https://minecraft.novaskin.me/post/3357963034/rainbow-bow-pulling-3
+- Galaxy Sword https://minecraft.novaskin.me/post/3565823044/galaxy-sword
+- Hacker Sword https://minecraft.novaskin.me/post/746273089/hacker-sword
+- Dragon Sword https://minecraft.novaskin.me/post/4755302427656192/diamond-sword
+- Kingdom Key 16-Bit https://minecraft.novaskin.me/post/5499995269103616/keyblade-kingdom-hearts
+- Kingdom Key https://minecraft.novaskin.me/post/1031703193/keyblade
+
+(Some images were modified or recolored.)
+
+--------------------------------------------------
+Legal
+--------------------------------------------------
+This mod is not affiliated with or endorsed by Mojang or Microsoft.
+Minecraft is a trademark of Mojang Studios.

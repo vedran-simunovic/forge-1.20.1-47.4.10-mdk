@@ -2,7 +2,7 @@ Run:
 ./gradlew build
 
 Find the built mod in:
-forge-1.20.1-47.4.10-mdk\build\libs
+simunovic-mod\build\libs
 
 titled:
 simunovicmod-1.0-1.20.1.jar

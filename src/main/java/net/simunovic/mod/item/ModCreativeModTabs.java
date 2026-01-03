@@ -19,7 +19,7 @@ public class ModCreativeModTabs {
             .title(Component.translatable("creative.tab"))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.RAINBOWGEM.get());
-                pOutput.accept(ModItems.RAINBOWGEM_BOW.get());
+                pOutput.accept(ModItems.RAINBOWGEM_BOW_STANDBY.get());
                 pOutput.accept(Items.SPECTRAL_ARROW);
                 pOutput.accept(ModItems.RAINBOWDIAMOND.get());
                 pOutput.accept(ModItems.RAINBOWDIAMOND_SWORD.get());

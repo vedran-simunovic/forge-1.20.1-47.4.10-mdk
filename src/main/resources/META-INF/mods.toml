@@ -30,7 +30,8 @@ displayName="Šimunović Mod" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="Credits to ChatGPT and Kaupenjoe for YouTube tutorial videos and explanations" #optional
+credits="""Credits to ChatGPT and Kaupenjoe for YouTube tutorial videos and explanations. See CREDITS.txt for full acknowledgements.
+""" #optional
 # A text field displayed in the mod UI
 authors="Luka, Leon, and Vedran Šimunović" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -42,7 +43,11 @@ authors="Luka, Leon, and Vedran Šimunović" #optional
 #displayTest="MATCH_VERSION" # if nothing is specified, MATCH_VERSION is the default when clientSideOnly=false, otherwise IGNORE_ALL_VERSION when clientSideOnly=true (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''${mod_description}'''
+description="""This is a mod by and for Leon and Luka :)
+
+This mod is made for Minecraft: Java Edition 1.20.1 with Forge (forge-1.20.1-47.4.10-mdk)
+
+Check out the code at https://github.com/vedran-simunovic/simunovic-mod"""
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.${mod_id}]] #optional
     # the modid of the dependency

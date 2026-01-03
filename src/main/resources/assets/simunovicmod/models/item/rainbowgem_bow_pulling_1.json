@@ -1,5 +1,5 @@
 {
-  "parent": "simunovicmod:item/rainbowgem_bow",
+  "parent": "simunovicmod:item/rainbowgem_bow_standby",
   "textures": {
     "layer0": "simunovicmod:item/rainbowgem_bow_pulling_1"
   }

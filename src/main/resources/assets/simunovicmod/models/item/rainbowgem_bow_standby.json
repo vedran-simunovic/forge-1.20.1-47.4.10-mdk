@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "simunovicmod:item/rainbowgem_bow"
+    "layer0": "simunovicmod:item/rainbowgem_bow_standby"
   },
   "display": {
     "thirdperson_righthand": {

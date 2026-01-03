@@ -16,7 +16,7 @@ public class ModItems {
     public static final RegistryObject<Item> RAINBOWGEM = ITEMS.register("rainbowgem",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RAINBOWGEM_BOW = ITEMS.register("rainbowgem_bow",
+    public static final RegistryObject<Item> RAINBOWGEM_BOW_STANDBY = ITEMS.register("rainbowgem_bow_standby",
             () -> new BowItem(new Item.Properties().durability(384)));
 
     public static final RegistryObject<Item> RAINBOWDIAMOND = ITEMS.register("rainbowdiamond",

@@ -16,7 +16,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public class ModItemProperties {
 
     public static void addCustomItemProperties() {
-        makeCustomBow(ModItems.RAINBOWGEM_BOW.get());
+        makeCustomBow(ModItems.RAINBOWGEM_BOW_STANDBY.get());
     }
 
     private static void makeCustomBow(Item item) {

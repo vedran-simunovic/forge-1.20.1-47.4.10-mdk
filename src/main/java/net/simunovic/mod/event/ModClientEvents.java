@@ -16,7 +16,7 @@ public class ModClientEvents {
     @SubscribeEvent
     public static void onComputeFovModifierEvent(ComputeFovModifierEvent event) {
         // Check if the player is using our custom bow
-        if (event.getPlayer().isUsingItem() && event.getPlayer().getUseItem().getItem() == ModItems.RAINBOWGEM_BOW.get()) {
+        if (event.getPlayer().isUsingItem() && event.getPlayer().getUseItem().getItem() == ModItems.RAINBOWGEM_BOW_STANDBY.get()) {
             float fovModifier = 1f;
 
             int ticksUsingItem = event.getPlayer().getTicksUsingItem();
