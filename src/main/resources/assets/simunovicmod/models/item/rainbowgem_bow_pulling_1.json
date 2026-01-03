@@ -1,0 +1,6 @@
+{
+  "parent": "simunovicmod:item/rainbowgem_bow",
+  "textures": {
+    "layer0": "simunovicmod:item/rainbowgem_bow_pulling_1"
+  }
+}

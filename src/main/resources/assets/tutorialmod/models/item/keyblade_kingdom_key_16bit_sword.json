@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "tutorialmod:item/keyblade_kingdom_key_16bit_sword"
-  }
-}
