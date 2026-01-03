@@ -26,6 +26,8 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.RAINBOWDIAMOND.get());
                 pOutput.accept(ModItems.RAINBOWDIAMOND_SWORD.get());
                 pOutput.accept(ModItems.GALAXY_SWORD.get());
+                pOutput.accept(ModItems.HACKER_SWORD.get());
+                pOutput.accept(ModItems.DRAGON_SWORD.get());
             })
             .build());
 

@@ -44,6 +44,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         handheldItem(ModItems.RAINBOWDIAMOND_SWORD);
         handheldItem(ModItems.GALAXY_SWORD);
+        handheldItem(ModItems.HACKER_SWORD);
+        handheldItem(ModItems.DRAGON_SWORD);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
