@@ -1,6 +1,7 @@
 package net.leon.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.leon.tutorialmod.item.ModCreativeModTabs;
 import net.leon.tutorialmod.item.ModItems;
 import net.leon.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTab;
@@ -30,6 +31,8 @@ public class TutorialMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -47,13 +50,6 @@ public class TutorialMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RAINBOWGEM);
-            event.accept(ModItems.RAINBOWGEM_BOW);
-            event.accept(ModItems.RAINBOWDIAMOND);
-            event.accept(ModItems.RAINBOWDIAMOND_SWORD);
-            event.accept(ModItems.GALAXY_SWORD);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
