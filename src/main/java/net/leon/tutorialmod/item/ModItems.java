@@ -1,6 +1,7 @@
 package net.leon.tutorialmod.item;
 
 import net.leon.tutorialmod.TutorialMod;
+import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,6 +15,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAINBOWGEM = ITEMS.register("rainbowgem",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAINBOWGEM_BOW = ITEMS.register("rainbowgem_bow",
+            () -> new BowItem(new Item.Properties().durability(384)));
 
     public static final RegistryObject<Item> RAINBOWDIAMOND = ITEMS.register("rainbowdiamond",
             () -> new Item(new Item.Properties()));

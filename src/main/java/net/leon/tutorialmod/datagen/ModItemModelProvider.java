@@ -42,7 +42,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-
         handheldItem(ModItems.RAINBOWDIAMOND_SWORD);
     }
 

@@ -2,6 +2,7 @@ package net.leon.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.leon.tutorialmod.item.ModItems;
+import net.leon.tutorialmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -48,6 +49,7 @@ public class TutorialMod
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAINBOWGEM);
+            event.accept(ModItems.RAINBOWGEM_BOW);
             event.accept(ModItems.RAINBOWDIAMOND);
             event.accept(ModItems.RAINBOWDIAMOND_SWORD);
         }
@@ -67,7 +69,7 @@ public class TutorialMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }
