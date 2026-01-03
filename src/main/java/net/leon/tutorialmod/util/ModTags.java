@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> NEEDS_RAINBOWGEM_TOOL = tag("needs_rainbowgem_tool");
         public static final TagKey<Block> NEEDS_RAINBOWDIAMOND_TOOL = tag("needs_rainbowdiamond_tool");
 
         private static TagKey<Block> tag(String name) {

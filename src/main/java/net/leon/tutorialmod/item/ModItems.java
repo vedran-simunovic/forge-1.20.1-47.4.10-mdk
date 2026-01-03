@@ -25,6 +25,9 @@ public class ModItems {
     public static final RegistryObject<Item> RAINBOWDIAMOND_SWORD = ITEMS.register("rainbowdiamond_sword",
             () -> new SwordItem(ModToolTiers.RAINBOWDIAMOND, 4, 2, new Item.Properties()));
 
+    public static final RegistryObject<Item> GALAXY_SWORD = ITEMS.register("galaxy_sword",
+            () -> new SwordItem(ModToolTiers.RAINBOWGEM, 9994, 2, new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

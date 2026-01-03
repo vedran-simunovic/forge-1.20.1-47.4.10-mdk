@@ -12,6 +12,11 @@ import net.minecraftforge.common.TierSortingRegistry;
 import java.util.List;
 
 public class ModToolTiers {
+    public static final Tier RAINBOWGEM = TierSortingRegistry.registerTier(
+            new ForgeTier(5, 1500, 5f, 4f, 25,
+                    ModTags.Blocks.NEEDS_RAINBOWGEM_TOOL, () -> Ingredient.of(ModItems.RAINBOWGEM.get())),
+            new ResourceLocation(TutorialMod.MOD_ID, "rainbowgem"), List.of(Tiers.NETHERITE), List.of());
+
     public static final Tier RAINBOWDIAMOND = TierSortingRegistry.registerTier(
             new ForgeTier(5, 1500, 5f, 4f, 25,
                     ModTags.Blocks.NEEDS_RAINBOWDIAMOND_TOOL, () -> Ingredient.of(ModItems.RAINBOWDIAMOND.get())),

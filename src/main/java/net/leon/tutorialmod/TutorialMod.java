@@ -52,6 +52,7 @@ public class TutorialMod
             event.accept(ModItems.RAINBOWGEM_BOW);
             event.accept(ModItems.RAINBOWDIAMOND);
             event.accept(ModItems.RAINBOWDIAMOND_SWORD);
+            event.accept(ModItems.GALAXY_SWORD);
         }
     }
 

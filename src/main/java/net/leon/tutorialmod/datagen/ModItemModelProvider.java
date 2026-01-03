@@ -43,6 +43,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         handheldItem(ModItems.RAINBOWDIAMOND_SWORD);
+        handheldItem(ModItems.GALAXY_SWORD);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
