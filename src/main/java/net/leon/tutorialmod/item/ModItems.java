@@ -31,6 +31,10 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.RAINBOWGEM, 10995, 2, new Item.Properties()));
     public static final RegistryObject<Item> DRAGON_SWORD = ITEMS.register("dragon_sword",
             () -> new SwordItem(ModToolTiers.RAINBOWGEM, 9995, 2, new Item.Properties()));
+    public static final RegistryObject<Item> KEYBLADE_KINGDOM_KEY_SWORD = ITEMS.register("keyblade_kingdom_key_sword",
+            () -> new SwordItem(ModToolTiers.RAINBOWGEM, 9994, 2, new Item.Properties()));
+    public static final RegistryObject<Item> KEYBLADE_KINGDOM_KEY_16BIT_SWORD = ITEMS.register("keyblade_kingdom_key_16bit_sword",
+            () -> new SwordItem(ModToolTiers.RAINBOWGEM, 9994, 2, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

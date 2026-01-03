@@ -46,6 +46,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.GALAXY_SWORD);
         handheldItem(ModItems.HACKER_SWORD);
         handheldItem(ModItems.DRAGON_SWORD);
+        handheldItem(ModItems.KEYBLADE_KINGDOM_KEY_SWORD);
+        handheldItem(ModItems.KEYBLADE_KINGDOM_KEY_16BIT_SWORD);
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
