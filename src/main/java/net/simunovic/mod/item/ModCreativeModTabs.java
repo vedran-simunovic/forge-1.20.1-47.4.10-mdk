@@ -28,6 +28,10 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.DRAGON_SWORD.get());
                 pOutput.accept(ModItems.KEYBLADE_KINGDOM_KEY_SWORD.get());
                 pOutput.accept(ModItems.KEYBLADE_KINGDOM_KEY_16BIT_SWORD.get());
+                pOutput.accept(ModItems.GALAXY_HELMET.get());
+                pOutput.accept(ModItems.GALAXY_CHESTPLATE.get());
+                pOutput.accept(ModItems.GALAXY_LEGGINGS.get());
+                pOutput.accept(ModItems.GALAXY_BOOTS.get());
             })
             .build());
 
