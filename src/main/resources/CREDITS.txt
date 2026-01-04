@@ -42,6 +42,11 @@ Image sources:
 - Dragon Sword https://minecraft.novaskin.me/post/4755302427656192/diamond-sword
 - Kingdom Key 16-Bit https://minecraft.novaskin.me/post/5499995269103616/keyblade-kingdom-hearts
 - Kingdom Key https://minecraft.novaskin.me/post/1031703193/keyblade
+- Galaxy Armor
+	- Helmet, Chestplate, Leggings, Boots icons https://www.planetminecraft.com/texture-pack/galaxy-diamond-armor-and-tools/
+	- Layer 1, actual appearance https://minecraft.novaskin.me/post/2744863031/galaxy-armor-layer-1
+	- Layer 2, actual appearance https://minecraft.novaskin.me/post/6023753059/galaxy-armor-layer-2
+- Gingerbread Man, Gingerbread Cookie, Candy Cane https://www.planetminecraft.com/texture-pack/cypress-christmas-foods/
 
 (Some images were modified or recolored.)
 

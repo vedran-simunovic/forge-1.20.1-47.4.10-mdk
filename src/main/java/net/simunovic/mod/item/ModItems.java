@@ -49,6 +49,13 @@ public class ModItems {
     public static final RegistryObject<Item> GALAXY_BOOTS = ITEMS.register("galaxy_boots",
             () -> new ArmorItem(ModArmorMaterials.GALAXY, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> GINGERBREADMAN = ITEMS.register("gingerbreadman",
+            () -> new Item(new Item.Properties().food(ModFoods.GINGERBREADMAN)));
+    public static final RegistryObject<Item> GINGERBREADCOOKIE = ITEMS.register("gingerbreadcookie",
+            () -> new Item(new Item.Properties().food(ModFoods.GINGERBREADCOOKIE)));
+    public static final RegistryObject<Item> CANDYCANE = ITEMS.register("candycane",
+            () -> new Item(new Item.Properties().food(ModFoods.CANDYCANE)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

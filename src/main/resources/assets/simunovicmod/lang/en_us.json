@@ -1,9 +1,5 @@
 {
   "item.simunovicmod.rainbowgem": "Rainbow Gem",
-  "item.simunovicmod.galaxy_helmet": "Galaxy Helmet",
-  "item.simunovicmod.galaxy_chestplate": "Galaxy Chestplate",
-  "item.simunovicmod.galaxy_leggings": "Galaxy Leggings",
-  "item.simunovicmod.galaxy_boots": "Galaxy Boots",
   "item.simunovicmod.rainbowdiamond": "Rainbow Diamond",
   "item.simunovicmod.rainbowdiamond_sword": "Rainbow Diamond Sword",
   "item.simunovicmod.rainbowgem_bow_standby": "Rainbow Gem Bow",
@@ -12,5 +8,12 @@
   "item.simunovicmod.dragon_sword": "Dragon Sword",
   "item.simunovicmod.keyblade_kingdom_key_sword": "Kingdom Key",
   "item.simunovicmod.keyblade_kingdom_key_16bit_sword": "Kingdom Key 16-Bit",
+  "item.simunovicmod.galaxy_helmet": "Galaxy Helmet",
+  "item.simunovicmod.galaxy_chestplate": "Galaxy Chestplate",
+  "item.simunovicmod.galaxy_leggings": "Galaxy Leggings",
+  "item.simunovicmod.galaxy_boots": "Galaxy Boots",
+  "item.simunovicmod.gingerbreadman": "Gingerbread Man",
+  "item.simunovicmod.gingerbreadcookie": "Gingerbread Cookie",
+  "item.simunovicmod.candycane": "Candy Cane",
   "creative.tab": "Hacker Tab"
 }

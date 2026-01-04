@@ -32,6 +32,9 @@ public class ModCreativeModTabs {
                 pOutput.accept(ModItems.GALAXY_CHESTPLATE.get());
                 pOutput.accept(ModItems.GALAXY_LEGGINGS.get());
                 pOutput.accept(ModItems.GALAXY_BOOTS.get());
+                pOutput.accept(ModItems.GINGERBREADMAN.get());
+                pOutput.accept(ModItems.GINGERBREADCOOKIE.get());
+                pOutput.accept(ModItems.CANDYCANE.get());
             })
             .build());
 
