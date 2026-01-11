@@ -1,11 +1,77 @@
-Run:
-./gradlew build
+==============================
+Šimunović Mod - Build Workflow
+==============================
 
-Find the built mod in:
-simunovic-mod\build\libs
+This workflow explains how to build the mod using Gradle, locate the JAR file, 
+and organize your release versions in the Built Mods folder.
 
-titled:
-simunovicmod-1.0-1.20.1.jar
+---
 
-Paste that file into directory:
-\Desktop\Minecraft 1.20.1\mods\
+Step 1: Build the Mod
+--------------------
+Run the Gradle build command from your project root:
+
+    ./gradlew build
+
+This will compile the mod and generate a JAR file.
+
+---
+
+Step 2: Locate the Built JAR
+----------------------------
+After the build completes, find the JAR in:
+
+    simunovic-mod\build\libs
+
+It will have a name like:
+
+    simunovicmod-1.0-1.20.1.jar
+
+---
+
+Step 3: Test the Mod Locally
+----------------------------
+Copy the JAR file to your Minecraft mods folder to test:
+
+    \Desktop\Minecraft 1.20.1\mods\
+
+Launch Minecraft to make sure everything works as expected.
+
+---
+
+Step 4: Organize the Built Mods
+-------------------------------
+1. Copy the JAR file into the versioned folder in your repo:
+
+       Built Mods\ŠimunovićMod Versions\<New Name>
+
+   Replace `<New Name>` with a descriptive name for this build (e.g., Add Galaxy Armor).
+
+2. Update the latest version:
+
+       Built Mods\ŠimunovićMod Versions\latest
+
+   Copy the same JAR here so users always have access to the most recent stable build.
+
+---
+
+Step 5: Commit Changes
+----------------------
+Once the new JAR is in place, commit the changes to Git:
+
+    git add Built Mods/ŠimunovićMod Versions/<New Name>
+    git add Built Mods/ŠimunovićMod Versions/latest
+    git commit -m "Add new mod build: <New Name>"
+    git push
+
+---
+
+Tips & Best Practices
+--------------------
+- Use clear, descriptive names for versioned builds.
+- Keep the `latest` folder up to date for easy access.
+- Avoid committing temporary or local Gradle files (like `run-data/` or `build/`).
+
+---
+
+Enjoy modding! 🚀
