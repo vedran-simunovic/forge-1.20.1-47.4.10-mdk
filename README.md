@@ -47,8 +47,8 @@ All JAR files can be placed directly into your Minecraft `mods` folder.
 
 Below are screenshots showcasing the mod in-game.
 
-### First-Person View
-![First-Person View](screenshots/screenshot_firstperson.png)
+### Third-Person View
+![Third-Person View](screenshots/screenshot_thirdperson.png)
 
 ### Creative Mode Tab
 ![Creative Mode Tab](screenshots/screenshot_creative_mode_tab.png)
@@ -56,8 +56,8 @@ Below are screenshots showcasing the mod in-game.
 ### Inventory View
 ![Inventory View](screenshots/screenshot_inventory.png)
 
-### Third-Person View
-![Third-Person View](screenshots/screenshot_thirdperson.png)
+### First-Person View
+![First-Person View](screenshots/screenshot_firstperson.png)
 
 ### Mods Menu Overview
 ![Mods Menu Overview](screenshots/screenshot_mods_overview.png)
