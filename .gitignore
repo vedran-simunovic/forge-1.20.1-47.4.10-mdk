@@ -1,27 +1,54 @@
-# eclipse
-bin
+# ===============================
+# IDE files
+# ===============================
+
+# Eclipse
+bin/
 *.launch
-.settings
-.metadata
+.settings/
+.metadata/
 .classpath
 .project
 
-# idea
-out
+# IntelliJ IDEA
+out/
 *.ipr
 *.iws
 *.iml
-.idea
+.idea/
 
-# gradle
-build
-.gradle
+# ===============================
+# Gradle
+# ===============================
 
-# other
-eclipse
-run
+build/
+.gradle/
 
-# Files from Forge MDK
+# ===============================
+# Minecraft / Forge runtime
+# ===============================
+
+run/
+run-data/
+logs/
+crash-reports/
+
+# ===============================
+# Forge MDK files
+# ===============================
+
 forge*changelog.txt
-/run-data/
-/run-data/logs/
+
+# ===============================
+# Built Mods (KEEP RELEASE JARs)
+# ===============================
+
+# Ignore everything by default
+Built Mods/**
+
+# But keep folders
+!Built Mods/
+!Built Mods/**/
+
+# Keep all JAR files inside Built Mods (any depth)
+!Built Mods/**/*.jar
