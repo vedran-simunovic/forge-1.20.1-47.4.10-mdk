@@ -29,6 +29,20 @@ This mod is developed using **Forge 47.4.10 (MDK)** and is intended as both a le
 
 ---
 
+## 📥 Download
+
+Pre-built mod JAR files are available in the **Built Mods** directory.
+
+The folder structure is organized by versions and features:
+
+- **`Built Mods/ŠimunovićMod Versions/`** contains released mod versions
+- Each subfolder (for example **`Add Galaxy Armor/`**) contains the JAR file for that specific update or feature
+- The **latest version** of each feature is stored in its corresponding folder
+
+All JAR files can be placed directly into your Minecraft `mods` folder.
+
+---
+
 ## 🖼️ Screenshots
 
 Below are screenshots showcasing the mod in-game.
